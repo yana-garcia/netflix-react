@@ -1,0 +1,13 @@
+.yt-container {
+    overflow: hidden !important;
+    padding-bottom: 56.25% !important;
+    position: relative !important;
+    height: 0 !important;
+}
+.yt-container iframe {
+    left: 0 !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute !important;
+}

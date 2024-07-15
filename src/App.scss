@@ -1,0 +1,196 @@
+body {
+    background: #141414 !important;
+    color: #fff !important;
+}
+
+.txt-white {
+    color: #fff !important;
+}
+// .custom-container {
+    // padding-top: 70px !important;
+// }
+
+.header-container {
+    position: relative !important;
+}
+.trailer-video {
+    width: 100% !important;
+    height: auto !important;
+}
+.header-info {
+    position: absolute !important;
+    top: 8% !important;
+    left: 30px !important;
+}
+.header-home-info {
+    top: 20% !important;
+}
+.header-info p {
+    font-size: 18px !important;
+}
+.btn-header {
+    margin-right: 15px !important;
+    margin-top: 20px !important;
+    border-radius: 5px !important;
+}
+.header-logo {
+    width: 90% !important;
+}
+.btn-play {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.btn-more-info {
+    background-color: rgba(61, 60, 60, 0.8) !important;
+    color: #fff !important;
+}
+.btn-lbl {
+    font-size: 20px !important;
+    padding-left: 8px !important;
+}
+.btn-header-toggle-mute {
+    border: 3px solid rgb(255, 255, 255) !important;
+    background: none;
+    border-radius: 50% !important;
+    color: #fff !important;
+    padding: 1px !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+.custom-no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.custom-no-margin {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.header-rating {
+    background: rgba(0, 0, 0, 0.5) !important;
+    width: 100px !important;
+    font-size: 23px !important;
+    padding: 10px 15px !important;
+    border-left: 5px solid #fff !important;
+}
+.header-video-details {
+    // float: right !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 50% !important;
+}
+
+.card-container {
+    position: relative !important;
+    margin: 50px !important;
+}
+.custom-card-padding {
+    padding: 2px !important;
+}
+.custom-card {
+    // background-color: red;
+    width: 100% !important;
+    margin: 2px !important;
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+    border-radius: 5px !important;
+
+    
+
+
+    &:hover .custom-card-content {
+        display: block !important;
+        position: absolute !important;
+        background-color: #000 !important;
+        border-radius: 0px 0px 5px 5px !important;
+        box-shadow: 0px 2px 5px 3px #000;
+        width: 250px !important;
+        z-index: 100 !important;
+        // width: 500px !important;
+        // transform: scale(2); 
+    }
+    &:hover .custom-card-content h4 {
+        font-size: 14px!important;
+    }
+    &:hover .custom-card-content p{
+        font-size: 12px !important;
+    }
+    &:hover > .custom-card-details {
+        box-shadow: 0px 0px 5px 3px #000;
+        position: absolute !important;
+        // background-color: yellow !important;
+        // width: 500px !important;
+        transform: scale(1.5) !important;
+        transform-origin: 30% 50% !important;
+        z-index: 100 !important;
+        border-radius: 5px 5px 0px 0px !important;
+    }
+    &:hover .thumbnail {
+        width: 250px !important;
+        height: 150px !important;
+        border-radius: 5px 5px 0px 0px !important;
+    }
+
+    
+}
+.thumbnail {
+    width: 100% !important;
+    border-radius: 5px !important;
+    height: 200px !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+// .custom-card
+// :hover > .custom-card-details {
+//         position: absolute !important;
+//         background-color: blue !important;
+//         width: 500px !important;
+//         display: block !important;
+
+// }
+// .custom-card-thumbnail:hover ~ .custom-card {
+//     position: absolute !important;
+//     background-color: blue !important;
+// }
+.custom-card-content {
+    padding: 10px !important;
+    display: none;
+}
+.content-rating {
+    border: 1px solid #fff !important;
+}
+
+.btn-custom-card {
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    margin-right: 5px !important;
+}
+.btn-custom-card-play {
+    border: 2px solid rgb(255, 255, 255) !important;
+    background-color: rgb(255, 255, 255) !important;
+    float: left !important;
+}
+.btn-custom-card-secondary {
+    border: 2px solid rgb(82, 81, 81) !important;
+    background-color: rgba(63, 63, 63, 0.5) !important;
+    color: #fff !important;
+    float: left !important;
+}
+.btn-custom-card-more {
+    border: 2px solid rgb(82, 81, 81) !important;
+    background-color: rgba(63, 63, 63, 0.5) !important;
+    color: #fff !important;
+    float: right !important;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+
+.error-page {
+    padding: 100px 100px !important;
+    text-align: center !important;
+}

@@ -1,0 +1,53 @@
+.navbar-container {
+    width: 100% !important;
+    // height: 60px !important;
+    background-color: rgb(0, 0, 0) !important;
+    display: block !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 100 !important;
+    transition: 0.3s ease-in-out;
+}
+.netflix-logo {
+    width: 100px !important;
+    float: left !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    display: block !important;
+}
+.navbar-link-holder {
+    display: block !important;
+    float: left !important;
+    padding-top: 25px !important;
+    padding-bottom: 20px !important;
+}
+.navbar-link {
+    text-decoration: none !important;
+    font-size: 15px !important;
+    padding-right: 10px !important;
+    padding-left: 20px !important;
+}
+.navbar-search {
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+    float: right !important;
+    display: block !important;
+    margin-bottom: 20px !important;
+}
+.cds--search-close {
+    margin-top: 10px !important;
+    float: right !important;
+}
+.cds--search-magnifier-icon {
+    fill: #fff !important;
+}
+#navbar-search-input {
+    background: #000 !important;
+    color: #fff !important;
+}
+#navbar-search-input::placeholder {
+    color: #fff !important;
+}
+.cds--search-input:focus {
+    outline: 2px solid var(--cds-focus, #fff) !important;
+}
